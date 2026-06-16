@@ -14,7 +14,7 @@ public class Product {
     private int productId;
 
     @Column(name = "ProductName")
-    private String name;
+    private String productName;
 
     @Column(name = "CategoryID")
     private int category;
@@ -31,11 +31,11 @@ public class Product {
     }
 
     public String getName() {
-        return name;
+        return productName;
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.productName = name;
     }
 
     public int getCategory() {
